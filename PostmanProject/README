@@ -1,0 +1,38 @@
+
+## 🧩 Workflow Steps
+
+1️⃣ **Create a Trello Board**  
+2️⃣ **Get the default list created in that board**  
+3️⃣ **Create two cards inside the list**  
+4️⃣ **Randomly select one card and update it**  
+5️⃣ **Delete both cards**  
+6️⃣ **Delete the board**
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Create Trello API Key and Token
+- Go to: [https://trello.com/app-key](https://trello.com/app-key)
+- Copy your **Key**
+- Click **“Token”** to generate your personal access token  
+> ⚠️ Keep these secure – they grant access to your Trello account.
+
+---
+
+### 2️⃣ Create Postman Environment
+Add the following variables in your environment:
+
+| Variable | Example Value |
+|-----------|----------------|
+| `baseURL` | `https://api.trello.com` |
+| `key` | `your_trello_key_here` |
+| `token` | `your_trello_token_here` |
+
+---
+### 3️⃣ Import the Collection
+1. Open Postman  
+2. Click **Import → File**  
+3. Select the file: `Trello_Full_Automation.postman_collection.json`  
+4. Select your environment (`TrelloEnv`)  
+5. Click **Run Collection**
