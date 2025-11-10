@@ -21,7 +21,8 @@ Main objectives:
 | ChromeDriver | Browser driver for test execution |
 | IntelliJ IDEA | Development environment |
 
----
+--- 
+
 
 ## 🧩 Project Structure
 
