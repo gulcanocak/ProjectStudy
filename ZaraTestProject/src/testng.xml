@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<suite name="Suite1">
+
+
+    <test name="Test">
+        <classes>
+            <class name="Testinium.Base.BaseTest"/>
+            <class name="Testinium.TestCases.HomePageTest"/>
+            <class name="Testinium.TestCases.SelectProductTest"/>
+           <class name="Testinium.TestCases.ProductDetailsTest"/>
+            <class name="Testinium.TestCases.CardDetailTest"/>
+
+
+
+        </classes>
+    </test>
+
+
+</suite>
